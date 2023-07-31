@@ -7,7 +7,7 @@ module "dev-app" {
 }
 
 #prd
-module "dev-app" {
+module "prd-app" {
   source = "./my_app_infra_module"
   my_env = "prd"
   instance_type = "t2.medium"
@@ -15,7 +15,7 @@ module "dev-app" {
 }
 
 #test
-module "dev-app" {
+module "test-app" {
   source = "./my_app_infra_module"
   my_env = "test"
   instance_type = "t2.small"
