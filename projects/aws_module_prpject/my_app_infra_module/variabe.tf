@@ -3,7 +3,7 @@ variable "my_env" {
   type = string
 }
 variable "ami" {
-  description = "value o f the ami"
+  description = "value of the ami"
 }
 variable "instance_type" {
   description = "value of the instance type"
